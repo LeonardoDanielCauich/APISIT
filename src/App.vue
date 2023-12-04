@@ -46,7 +46,7 @@ onMounted(() => {
     <div>
       <!-- Sección 2: Contenido -->
       <section class="section2 xl:px-60">
-        <h2 class="w-full text-2xl font-bold text-center">¿Cómo va la encuesta?</h2>
+        <h2 class="w-full text-2xl font-bold text-center white">¿Cómo va la encuesta?</h2>
         <HomeView class="w-full"></HomeView>
 
       </section>
@@ -54,7 +54,7 @@ onMounted(() => {
 
       <!-- Sección 3: Contenido -->
       <section class="section3 w-full flex flex-col gap-y-3">
-        <h2 class="w-full text-2xl font-bold text-center">Información por carrera</h2>
+        <h2 class="w-full text-2xl font-bold text-center white">Información por carrera</h2>
         <Carrera class="w-full xl:px-60 xl:py-5"></Carrera>
 
       </section>
@@ -128,12 +128,25 @@ body {
 .text {
   font-size: 25px;
   font-style: italic;
+  border-width: 1cap;
+  -webkit-text-stroke: 2px black;
 }
 
 .text2 {
   font-size: 20px;
   font-style: italic;
+  border-width: 1cap;
+  -webkit-text-stroke: 1px black;
+
 }
+.white {
+  font-size: 20px;
+  font-style: initial;
+  border-width: 1cap;
+  -webkit-text-stroke: 1px black;
+
+}
+
 
 .bolded {
   font-weight: bold;

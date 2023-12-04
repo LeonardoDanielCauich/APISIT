@@ -66,7 +66,7 @@ onMounted(() => {
 
 
 <template>
-  <div class="w-full flex flex-col gap-y-5">
+  <div class="w-full flex flex-col gap-y-5 text2">
 
     <div class="w-full flex flex-col gap-y-5 xl:flex-row xl:gap-x-5">
       <!-- IE -->
